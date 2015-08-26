@@ -12,6 +12,8 @@ The deepIndexOf package adds a deepIndexOf method to the JavaScript Array protot
 ##Examples
 
 ```js
+require('deepindexof');
+
 ['a','b','c'].deepIndexOf('b') === 1;
 
 [10,11,12].deepIndexOf(12) === 2;
@@ -19,6 +21,8 @@ The deepIndexOf package adds a deepIndexOf method to the JavaScript Array protot
 [10,11,12].deepIndexOf(25) === -1;
 ```
 ```js
+require('deepindexof');
+
 var arr = [{'a':1,'b':2},{'x':3,'y':2}];
 
 arr.deepIndexOf(1) === 0;
@@ -32,6 +36,8 @@ arr.deepIndexOf(4) === -1;
 arr.deepIndexOf(2,'y') === 1;
 ```
 ```js
+require('deepindexof');
+
 var arr = [[1, 2],[3, 2]];
 
 arr.deepIndexOf(1) === 0;
@@ -43,6 +49,8 @@ arr.deepIndexOf(3) === 1;
 arr.deepIndexOf(4) === -1;
 ```
 ```js
+require('deepindexof');
+
 var arr = [{'a':1,'b':{'c':2,'d':4}},{'x':3,'y':2}];
 
 arr.deepIndexOf(2) === 1;

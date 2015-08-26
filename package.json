@@ -20,7 +20,10 @@
     "deep",
     "search",
     "find",
-    "index"
+    "index",
+    "recursive",
+    "recursively",
+    "deepIndexOf"
   ],
   "author": {
     "name": "Drew Vartanian",
