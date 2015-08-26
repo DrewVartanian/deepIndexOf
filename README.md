@@ -3,13 +3,13 @@ The deepIndexOf package adds a deepIndexOf method to the JavaScript Array protot
 
 #####`arr.deepIndexOf(value,[key],[depth])`
 
-##Parameters
+<h2>Parameters</h2>
 
 - value: The value that is searched for.
 - key (Optional): Limits search to values of object properties at key.  Searches all values if key is null or undefined.
 - depth (Optional): How deep to search.  No limit if depth is null or undefined.
 
-##Examples
+<h2>Examples</h2>
 
 ```js
 require('deepindexof');
