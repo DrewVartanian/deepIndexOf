@@ -9,16 +9,10 @@ Array.prototype.deepIndexOf = function(value,key,depth){
   var length=this.length;
   while(i<length){
     var entry=entries[i];
-    var entryValue;
-    if(keyProvided){
-      entryValue=entry.value[key];
-    }else{
-      entryValue=entry.value;
-    }
-    if(value===entryValue){
+    var entryValue=entry.value;
+    if(value===(keyProvided?entryValue[key]:entryValue)){
       return entry.index;
     }
-    entryValue=entry.value;
     if(typeof entryValue==='object'){
       for(var entryKey in entryValue){
         if(entryValue.hasOwnProperty(entryKey)&&
