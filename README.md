@@ -57,6 +57,8 @@ arr.deepIndexOf(2) === 1;
 
 arr.deepIndexOf(4) === 0;
 
+arr.deepIndexOf(2) === 1;
+
 arr.deepIndexOf(2,'c') === 0;
 
 arr.deepIndexOf(4,null,2) === 0;
