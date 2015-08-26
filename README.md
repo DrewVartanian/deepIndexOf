@@ -53,8 +53,6 @@ require('deepindexof');
 
 var arr = [{'a':1,'b':{'c':2,'d':4}},{'x':3,'y':2}];
 
-arr.deepIndexOf(2) === 1;
-
 arr.deepIndexOf(4) === 0;
 
 arr.deepIndexOf(2) === 1;
