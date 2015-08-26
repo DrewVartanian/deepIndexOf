@@ -1,0 +1,29 @@
+{
+  "name": "deepindexof",
+  "version": "1.0.0",
+  "description": "Deep version of array indexOf method",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DrewVartanian/deepIndexOf.git"
+  },
+  "keywords": [
+    "array",
+    "indexOf",
+    "deep",
+    "search",
+    "find",
+    "index"
+  ],
+  "author": {
+    "name": "Drew Vartanian",
+    "email": "drew.vartanian@gmail.com"
+  }
+}
