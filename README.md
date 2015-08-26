@@ -1,7 +1,7 @@
 # deepIndexOf
 The deepIndexOf package adds a deepIndexOf method to the JavaScript Array prototype.  The method acts similar to the standard indexOf, but will do a breadth first search through all array entries and object properties for the value given, returning the index of the element in the original array that contains the value.  The method can also search by key/value pair, and can restrict how many level deeps it will search.
 
-#####`arr.deepIndexOf(value,[key],[depth])`
+<b>`arr.deepIndexOf(value,[key],[depth])`</b>
 
 <h2>Parameters</h2>
 
